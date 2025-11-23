@@ -1,0 +1,11 @@
+model_list:
+  - model_name: gpt-4o
+    litellm_params:
+      model: groq/llama-3.1-405b-reasoning
+
+  - model_name: gpt-4o-mini
+    litellm_params:
+      model: groq/llama-3.1-70b-versatile
+
+general_settings:
+  master_key: sk-iphone123
